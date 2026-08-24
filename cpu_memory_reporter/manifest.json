@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2.0,
+	"id": "CpuMemoryReporter",
+	"name": "CPU/内存性能监测",
+	"version": "1.0",
+	"namespace": "CpuMemoryReporter",
+	"author": "Zabbix",
+	"description": "提供主机 CPU 与内存多维度指标（峰值、均值、中位数）的统计与排序报表",
+	"actions": {
+		"cpu.memory.report.view": {
+			"class": "CpuMemoryReportView",
+			"view": "cpu.memory.report.view"
+		}
+	}
+}

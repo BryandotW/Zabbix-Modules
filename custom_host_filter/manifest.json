@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2.0,
+	"id": "custom_host_filter",
+	"name": "高级主机筛选",
+	"version": "1.0",
+	"namespace": "CustomHostFilter",
+	"author": "Zabbix",
+	"description": "按IP、端口及接口状态灵活筛选主机",
+	"actions": {
+		"host.filter.view": {
+			"class": "HostFilterView",
+			"view": "host.filter.view"
+		}
+	}
+}

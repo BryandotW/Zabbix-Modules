@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2.0,
+	"id": "id_resolver",
+	"name": "ID 详情解析工具",
+	"version": "1.0",
+	"namespace": "IdResolver",
+	"author": "Zabbix",
+	"description": "通过 ID 号反向获取主机、群组、监控项及触发器的详细配置信息",
+	"actions": {
+		"id.resolver.view": {
+			"class": "IdResolverView",
+			"view": "id.resolver.view"
+		}
+	}
+}
