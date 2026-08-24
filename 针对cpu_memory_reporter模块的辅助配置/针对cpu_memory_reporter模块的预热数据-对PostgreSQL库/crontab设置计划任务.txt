@@ -1,0 +1,3 @@
+[postgres@zabbixdb01 ~]$ crontab -l
+*/15 * * * *  flock -n /bin/bash /opt/warmup.sh >> /tmp/warmup.log 2>&1 || echo "$(date): 上一次任务尚未结束，本次跳过" >> /tmp/warmup.log 2>&1
+[postgres@zabbixdb01 ~]$
